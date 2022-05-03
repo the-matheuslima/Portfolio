@@ -1,0 +1,6 @@
+@mixin flexBox($flex_direction) {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: $flex_direction;
+    align-items: center;
+}

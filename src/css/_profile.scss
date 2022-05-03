@@ -1,0 +1,59 @@
+.profile {
+    margin-bottom: 1rem;
+    color: var(--text-color);
+    margin-top: 6rem;
+
+    .profile-info{
+        @include flexBox(row);
+    }
+
+    .content-img {
+        width: 50%;
+    }
+
+    .profile-area {
+        margin: 20px 0;
+        width: 30rem;
+        width: 50%;
+
+        .name {
+            font-size: 3.2rem;
+            font-weight: 800;
+            margin: 1rem 0;
+            line-height: unset;
+        }
+
+        .car-level {
+            padding:0 0 1.5rem 0;
+        }
+    }
+
+    .profile-img {
+        img {
+            border-radius: 50%;
+        }
+    }
+}
+
+.social-midia {
+    display: flex;
+    .social-midia-items {
+        margin-right: 1rem;
+        background-color: var(--secondy-color);
+        border-radius: 50%;
+        padding: 5px;
+
+
+        &:hover {
+            background-color: var(--highlighter-color);
+        }
+
+        a{
+            color: black;
+
+            i{
+                font-size: 1.6rem;
+            }
+        }
+    }
+}

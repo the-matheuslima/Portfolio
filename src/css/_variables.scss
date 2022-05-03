@@ -1,0 +1,20 @@
+
+// rgba(102, 219, 176, 0.9);
+:root{
+    --primary-color: #F2F2F2;
+    --secondy-color: #D9D9D9;
+    --text-color: #0D0D0D;
+    --highlighter-color: #ffff00;
+    --font: 'Amatic SC', cursive;
+}
+
+.dark-mode:root{
+    --primary-color: #444;
+    --secondy-color:#1FFFBC;
+    --text-color: #fff;
+    --highlighter-color: #fc447a;
+    --font: 'Amatic SC', cursive;
+}
+
+
+

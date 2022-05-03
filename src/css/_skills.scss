@@ -1,0 +1,40 @@
+
+.skills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .skills-cards {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-bottom: 5rem;
+        background-color: var(--secondy-color);
+        padding: 2rem 4rem;
+        border-radius: 10px;
+        background-image: url("../../assets/img/batman.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+        .cards {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+
+            border-radius: 5px;
+            background-color: var(--highlighter-color);
+            width: 150px;
+            height: 50px;
+            padding: 10px 0;
+            cursor: pointer;
+
+            &:hover {
+                transform: translateY(-10px);
+                transition: transform 0.5s;
+            }
+        }
+    }
+}

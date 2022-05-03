@@ -1,0 +1,34 @@
+.about {
+    border: 1px double var(--secondy-color);
+    box-shadow: 4px 4px 10px 2px rgba( 31, 38, 135, 0.37 );
+    padding: 1rem;
+    @include flexBox(column);
+    
+    .about-info{
+        @include flexBox(row);
+    }
+
+    .info-about-me{
+        width: 50%;
+    }
+    .img-about-me {
+        width: 50%;
+        // height: 100%;
+
+        img{
+            object-fit: contain;
+            border-radius: 50%;
+        }
+
+        .text-about-me{
+            margin-bottom: 1rem;
+        }
+    }
+
+    .about-curriculo {
+        padding: 12px;
+        a{
+            color: var(--text-color);
+        }
+    }
+}
