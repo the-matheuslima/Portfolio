@@ -3,13 +3,10 @@ html{
     overflow-x: hidden;
 }
 
-
-
 body {
     max-width: 1440px;
     margin: auto;
     background-color: var(--primary-color);
     font-family: 'Montserrat', sans-serif;
-    background: rgb(242,242,242);
     background: linear-gradient(100deg, var(--primary-color) , var(--secondy-color)); 
 }

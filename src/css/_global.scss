@@ -46,7 +46,6 @@ p, h2, h1,h3{
 .btn {
     background-color: var(--highlighter-color);
 
-    box-shadow: 0px 3px 2px 1px var(--highlighter-color);
     padding: 10px 20px;
     font-family: var(--font);
     color: var(--text-color);
@@ -55,6 +54,7 @@ p, h2, h1,h3{
     font-size: 2rem;
 
     &:hover {
+        background-color: var(--btn-hover);
         transform: translateY(-5px);
         transition: transform 0.9s;
     }

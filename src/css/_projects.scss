@@ -10,7 +10,7 @@
 
         .project {
             position: relative;
-            box-shadow: 4px 4px 10px 2px rgba(31, 38, 135, 0.37);
+            box-shadow: 4px 4px 6px 2px  var(--boxShadow-color);
             border-radius: 10px;
 
             h3 {
@@ -18,6 +18,8 @@
             }
             .content-img-project {
                 width: 500px;
+                height: 282px;
+                overflow: hidden;   
 
                 img {
                     width: 100%;
@@ -44,10 +46,8 @@
                     margin-bottom: 5rem;
                 }
 
-                .solution {
-                    background-color: var(--highlighter-color);
-                    padding: 12px;
-                    border-radius: 20px;
+                .solution{
+                    color: var(--text-color);
                 }
             }
 

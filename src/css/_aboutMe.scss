@@ -1,6 +1,6 @@
 .about {
     border: 1px double var(--secondy-color);
-    box-shadow: 4px 4px 10px 2px rgba( 31, 38, 135, 0.37 );
+    box-shadow: 4px 4px 10px 2px var(--secondy-color);
     padding: 1rem;
     @include flexBox(column);
     

@@ -1,20 +1,21 @@
-
-// rgba(102, 219, 176, 0.9);
 :root{
     --primary-color: #F2F2F2;
     --secondy-color: #D9D9D9;
     --text-color: #0D0D0D;
+    --boxShadow-color: #00000078;
+    --glass-color:  #d9d9d979;
     --highlighter-color: #ffff00;
+    --btn-hover: #eaea00;
     --font: 'Amatic SC', cursive;
 }
 
 .dark-mode:root{
-    --primary-color: #444;
-    --secondy-color:#1FFFBC;
-    --text-color: #fff;
-    --highlighter-color: #fc447a;
+    --primary-color: #151515;
+    --secondy-color:#301B3F;
+    --text-color: #EEEEEE;
+    --boxShadow-color: #51494983;
+    --highlighter-color: #4d5477;
+    --btn-hover: #393f58;
+    --glass-color:  #301b3f73;
     --font: 'Amatic SC', cursive;
 }
-
-
-
