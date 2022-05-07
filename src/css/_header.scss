@@ -27,13 +27,8 @@
 
                 &:hover{
                     transition: all 0.2s ease-in;
-                    border-bottom: 1px solid var(--highlighter-color);
                     color: var(--highlighter-color);
                 }
-            }
-
-            .dark-mode{
-                margin-left: 5rem
             }
         }
     }
