@@ -13,7 +13,6 @@
     }
     .img-about-me {
         width: 50%;
-        // height: 100%;
 
         img{
             object-fit: contain;
@@ -28,6 +27,7 @@
     .about-curriculo {
         padding: 12px;
         a{
+            font-size: 1.5rem;
             color: var(--text-color);
         }
     }
