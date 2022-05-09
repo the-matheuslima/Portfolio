@@ -44,6 +44,10 @@ body {
   background: linear-gradient(100deg, var(--primary-color), var(--secondy-color));
 }
 
+body.active {
+  overflow: hidden;
+}
+
 .header {
   color: var(--text-color);
   position: fixed;
@@ -94,7 +98,7 @@ body {
 }
 
 .full_screen {
-  min-height: 84vh;
+  min-height: 60vh;
 }
 
 .content-img {
@@ -536,8 +540,8 @@ p, h2, h1, h3 {
     z-index: 10;
     -webkit-transition: all 0.5s ease-in;
     transition: all 0.5s ease-in;
-    -webkit-transform: translateY(-100%);
-            transform: translateY(-100%);
+    -webkit-transform: translatex(100%);
+            transform: translatex(100%);
     background-color: var(--primary-color);
   }
   .header .nav .navbar.show {

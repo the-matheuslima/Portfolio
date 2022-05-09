@@ -53,7 +53,7 @@ const portfolios = [
         'solution': 'https://the-matheuslima.github.io/sunnyside-agency-landing-page/',
         'rep': 'https://github.com/the-matheuslima/sunnyside-agency-landing-page'
     },
-    ]
+]
     
     const gallery = document.querySelector('.gallery')
     
@@ -91,12 +91,17 @@ const portfolios = [
 const mobile = document.querySelector('.mobile')
 const navbar = document.querySelector('.navbar')
 const html = document.querySelector('html')
+const body = document.querySelector('body')
 
 mobile.addEventListener('click', () => {
     mobile.classList.toggle('active')
-    mobile.classList.contains('active') ? document.querySelector('body').style.position = 'fixed':  document.querySelector('body').style.position = 'unset'
-    // if(mobile.classList.contains('active'))
-    navbar.classList.toggle('show')
+    if(mobile.classList.contains('active')) {
+        navbar.classList.add('show')
+        body.classList.add('active')
+    } else {
+        body.classList.remove('active')
+        navbar.classList.remove('show')
+    }
 })
 
 
@@ -113,18 +118,20 @@ const navbarItens = document.querySelectorAll('.navbar-itens')
 navbarItens.forEach(itens=> {
     itens.addEventListener('click', () => {
         navbar.classList.remove('show')
+        mobile.classList.remove('active')
+        body.classList.remove('active')
         if(itens.textContent == 'Inicio'){
             window.scrollTo(0,0.25)
         } else if(itens.textContent == 'Sobre mim'){
             window.scrollTo(0,550.25)
         } else if(itens.textContent == 'Projetos'){
-            window.scrollTo(0,1720.25)
+            window.scrollTo(0,1531.5)
         } else if(itens.textContent == 'Contato'){
-            window.scrollTo(0,3500.25)
+            window.scrollTo(0,6500.25)
         }
     })
 })
-
+// 1720.25
 function animaScroll(){
     const windowTop = window.pageYOffset+((window.innerHeight * 3)/4)
     target.forEach(e => {
